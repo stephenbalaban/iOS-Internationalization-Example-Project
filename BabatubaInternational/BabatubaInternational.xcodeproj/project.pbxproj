@@ -16,10 +16,10 @@
 		E69B36581737771800196216 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E69B36571737771800196216 /* Default.png */; };
 		E69B365A1737771800196216 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E69B36591737771800196216 /* Default@2x.png */; };
 		E69B365C1737771800196216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E69B365B1737771800196216 /* Default-568h@2x.png */; };
-		E69B365F1737771800196216 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69B365D1737771800196216 /* MainStoryboard_iPhone.storyboard */; };
-		E69B36621737771800196216 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69B36601737771800196216 /* MainStoryboard_iPad.storyboard */; };
 		E69B36651737771800196216 /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69B36641737771800196216 /* LLViewController.m */; };
 		E69B366C1737778C00196216 /* logo_288.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69B366B1737778C00196216 /* logo_288.jpg */; };
+		E69B366F1737806A00196216 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E69B36711737806A00196216 /* Localizable.strings */; };
+		E69B36761737862800196216 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69B36751737862800196216 /* MainStoryboard_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,11 +36,13 @@
 		E69B36571737771800196216 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E69B36591737771800196216 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E69B365B1737771800196216 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E69B365E1737771800196216 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		E69B36611737771800196216 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E69B36631737771800196216 /* LLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLViewController.h; sourceTree = "<group>"; };
 		E69B36641737771800196216 /* LLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
 		E69B366B1737778C00196216 /* logo_288.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_288.jpg; sourceTree = "<group>"; };
+		E69B36701737806A00196216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E69B36721737809600196216 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E69B36731737809600196216 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E69B36751737862800196216 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +92,9 @@
 				E69B366B1737778C00196216 /* logo_288.jpg */,
 				E69B36541737771800196216 /* LLAppDelegate.h */,
 				E69B36551737771800196216 /* LLAppDelegate.m */,
-				E69B365D1737771800196216 /* MainStoryboard_iPhone.storyboard */,
-				E69B36601737771800196216 /* MainStoryboard_iPad.storyboard */,
 				E69B36631737771800196216 /* LLViewController.h */,
 				E69B36641737771800196216 /* LLViewController.m */,
+				E69B36751737862800196216 /* MainStoryboard_iPhone.storyboard */,
 				E69B364C1737771800196216 /* Supporting Files */,
 			);
 			path = BabatubaInternational;
@@ -109,6 +110,7 @@
 				E69B36571737771800196216 /* Default.png */,
 				E69B36591737771800196216 /* Default@2x.png */,
 				E69B365B1737771800196216 /* Default-568h@2x.png */,
+				E69B36711737806A00196216 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,6 +151,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
+				Base,
 			);
 			mainGroup = E69B36391737771800196216;
 			productRefGroup = E69B36431737771800196216 /* Products */;
@@ -169,9 +173,9 @@
 				E69B36581737771800196216 /* Default.png in Resources */,
 				E69B365A1737771800196216 /* Default@2x.png in Resources */,
 				E69B365C1737771800196216 /* Default-568h@2x.png in Resources */,
-				E69B365F1737771800196216 /* MainStoryboard_iPhone.storyboard in Resources */,
-				E69B36621737771800196216 /* MainStoryboard_iPad.storyboard in Resources */,
 				E69B366C1737778C00196216 /* logo_288.jpg in Resources */,
+				E69B366F1737806A00196216 /* Localizable.strings in Resources */,
+				E69B36761737862800196216 /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,24 +199,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				E69B364F1737771800196216 /* en */,
+				E69B36721737809600196216 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		E69B365D1737771800196216 /* MainStoryboard_iPhone.storyboard */ = {
+		E69B36711737806A00196216 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E69B365E1737771800196216 /* en */,
+				E69B36701737806A00196216 /* en */,
+				E69B36731737809600196216 /* zh-Hans */,
 			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		E69B36601737771800196216 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E69B36611737771800196216 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -317,6 +315,7 @@
 				E69B366A1737771800196216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

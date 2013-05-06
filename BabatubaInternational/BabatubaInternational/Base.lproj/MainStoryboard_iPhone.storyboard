@@ -24,6 +24,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonWasPressed:" destination="2" eventType="touchUpInside" id="dvO-wG-a9V"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVV-1R-yxY">
                                 <constraints>
@@ -44,6 +47,10 @@
                             <constraint firstItem="Y4J-ia-N9Y" firstAttribute="top" secondItem="vVV-1R-yxY" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="aBc-Rl-mmn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonBabatuba" destination="Y4J-ia-N9Y" id="a9i-zD-4om"/>
+                        <outlet property="labelIntl" destination="vVV-1R-yxY" id="zxr-2O-cEA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,6 +59,19 @@
     <resources>
         <image name="logo_288.jpg" width="288" height="288"/>
     </resources>
+    <classes>
+        <class className="LLViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LLViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonWasPressed:"/>
+                <relationship kind="outlet" name="buttonBabatuba" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="labelIntl" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

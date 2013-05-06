@@ -10,8 +10,8 @@
 
 @interface LLViewController : UIViewController
 
-@property (nonatomic, retain) UILabel *labelIntl;
-@property (nonatomic, retain) UIButton *buttonBabatuba;
+@property (nonatomic, retain) IBOutlet UILabel *labelIntl;
+@property (nonatomic, retain) IBOutlet UIButton *buttonBabatuba;
 
 - (IBAction)buttonWasPressed:(id)sender;
 
